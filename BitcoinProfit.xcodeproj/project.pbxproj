@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B000D5721719A61F00DFA3D0 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = B000D5711719A61F00DFA3D0 /* icon.iconset */; };
 		B0A17A6B171976C200CFA277 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A17A6A171976C200CFA277 /* Cocoa.framework */; };
 		B0A17A75171976C200CFA277 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0A17A73171976C200CFA277 /* InfoPlist.strings */; };
 		B0A17A77171976C200CFA277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A17A76171976C200CFA277 /* main.m */; };
-		B0A17A7B171976C200CFA277 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0A17A79171976C200CFA277 /* Credits.rtf */; };
 		B0A17A7E171976C200CFA277 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A17A7D171976C200CFA277 /* AppDelegate.m */; };
 		B0A17A81171976C200CFA277 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0A17A7F171976C200CFA277 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0A17A67171976C200CFA277 /* Bitcoin Profit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Profit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B000D5711719A61F00DFA3D0 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+		B0A17A67171976C200CFA277 /* BitcoinProfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinProfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A17A6A171976C200CFA277 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B0A17A6D171976C200CFA277 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B0A17A6E171976C200CFA277 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B0A17A6F171976C200CFA277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B0A17A72171976C200CFA277 /* Bitcoin Profit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bitcoin Profit-Info.plist"; sourceTree = "<group>"; };
+		B0A17A72171976C200CFA277 /* BitcoinProfit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitcoinProfit-Info.plist"; sourceTree = "<group>"; };
 		B0A17A74171976C200CFA277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0A17A76171976C200CFA277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0A17A78171976C200CFA277 /* Bitcoin Profit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bitcoin Profit-Prefix.pch"; sourceTree = "<group>"; };
-		B0A17A7A171976C200CFA277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B0A17A78171976C200CFA277 /* BitcoinProfit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitcoinProfit-Prefix.pch"; sourceTree = "<group>"; };
 		B0A17A7C171976C200CFA277 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0A17A7D171976C200CFA277 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0A17A80171976C200CFA277 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -46,6 +46,7 @@
 		B0A17A5E171976C200CFA277 = {
 			isa = PBXGroup;
 			children = (
+				B000D5711719A61F00DFA3D0 /* icon.iconset */,
 				B0A17A70171976C200CFA277 /* Bitcoin Profit */,
 				B0A17A69171976C200CFA277 /* Frameworks */,
 				B0A17A68171976C200CFA277 /* Products */,
@@ -55,7 +56,7 @@
 		B0A17A68171976C200CFA277 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0A17A67171976C200CFA277 /* Bitcoin Profit.app */,
+				B0A17A67171976C200CFA277 /* BitcoinProfit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,11 +94,10 @@
 		B0A17A71171976C200CFA277 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B0A17A72171976C200CFA277 /* Bitcoin Profit-Info.plist */,
+				B0A17A72171976C200CFA277 /* BitcoinProfit-Info.plist */,
 				B0A17A73171976C200CFA277 /* InfoPlist.strings */,
 				B0A17A76171976C200CFA277 /* main.m */,
-				B0A17A78171976C200CFA277 /* Bitcoin Profit-Prefix.pch */,
-				B0A17A79171976C200CFA277 /* Credits.rtf */,
+				B0A17A78171976C200CFA277 /* BitcoinProfit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0A17A66171976C200CFA277 /* Bitcoin Profit */ = {
+		B0A17A66171976C200CFA277 /* BitcoinProfit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0A17A84171976C200CFA277 /* Build configuration list for PBXNativeTarget "Bitcoin Profit" */;
+			buildConfigurationList = B0A17A84171976C200CFA277 /* Build configuration list for PBXNativeTarget "BitcoinProfit" */;
 			buildPhases = (
 				B0A17A63171976C200CFA277 /* Sources */,
 				B0A17A64171976C200CFA277 /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bitcoin Profit";
+			name = BitcoinProfit;
 			productName = "Bitcoin Profit";
-			productReference = B0A17A67171976C200CFA277 /* Bitcoin Profit.app */;
+			productReference = B0A17A67171976C200CFA277 /* BitcoinProfit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jaakko Holster";
 			};
-			buildConfigurationList = B0A17A62171976C200CFA277 /* Build configuration list for PBXProject "Bitcoin Profit" */;
+			buildConfigurationList = B0A17A62171976C200CFA277 /* Build configuration list for PBXProject "BitcoinProfit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0A17A66171976C200CFA277 /* Bitcoin Profit */,
+				B0A17A66171976C200CFA277 /* BitcoinProfit */,
 			);
 		};
 /* End PBXProject section */
@@ -154,8 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A17A75171976C200CFA277 /* InfoPlist.strings in Resources */,
-				B0A17A7B171976C200CFA277 /* Credits.rtf in Resources */,
 				B0A17A81171976C200CFA277 /* MainMenu.xib in Resources */,
+				B000D5721719A61F00DFA3D0 /* icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,14 +180,6 @@
 				B0A17A74171976C200CFA277 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B0A17A79171976C200CFA277 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0A17A7A171976C200CFA277 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		B0A17A7F171976C200CFA277 /* MainMenu.xib */ = {
@@ -265,9 +257,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bitcoin Profit/Bitcoin Profit-Prefix.pch";
-				INFOPLIST_FILE = "Bitcoin Profit/Bitcoin Profit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Bitcoin Profit/BitcoinProfit-Prefix.pch";
+				INFOPLIST_FILE = "Bitcoin Profit/BitcoinProfit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = BitcoinProfit;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,9 +270,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bitcoin Profit/Bitcoin Profit-Prefix.pch";
-				INFOPLIST_FILE = "Bitcoin Profit/Bitcoin Profit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Bitcoin Profit/BitcoinProfit-Prefix.pch";
+				INFOPLIST_FILE = "Bitcoin Profit/BitcoinProfit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = BitcoinProfit;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0A17A62171976C200CFA277 /* Build configuration list for PBXProject "Bitcoin Profit" */ = {
+		B0A17A62171976C200CFA277 /* Build configuration list for PBXProject "BitcoinProfit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0A17A82171976C200CFA277 /* Debug */,
@@ -296,13 +290,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0A17A84171976C200CFA277 /* Build configuration list for PBXNativeTarget "Bitcoin Profit" */ = {
+		B0A17A84171976C200CFA277 /* Build configuration list for PBXNativeTarget "BitcoinProfit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0A17A85171976C200CFA277 /* Debug */,
 				B0A17A86171976C200CFA277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
