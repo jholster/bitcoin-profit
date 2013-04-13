@@ -7,3 +7,9 @@ Note: balance info hardcoded, not yet useful for public audience.
 ## TODO
 
  - Preferences
+
+## Screenshot
+
+![Screenshot](screenshot.png)
+
+Displaying current exchange rate, net profit and relative profit.
