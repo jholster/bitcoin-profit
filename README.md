@@ -10,6 +10,6 @@ Note: balance info hardcoded, not yet useful for public audience.
 
 ## Screenshot
 
-<img src="screenshot.png alt="Screenshot" width="626" height="157" />
+<img src="screenshot.png" alt="Screenshot" width="626" height="157" />
 
 Displaying current exchange rate, net profit and relative profit.
